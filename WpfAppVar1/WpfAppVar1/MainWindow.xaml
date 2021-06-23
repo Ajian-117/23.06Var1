@@ -7,26 +7,24 @@
         mc:Ignorable="d"
         Title="" Height="320" Width="610" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid Background="LightGoldenrodYellow">
-        <TextBox x:Name="StorA" Background="LightGray" HorizontalAlignment="Left" Height="32" FontSize="20" Margin="117,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <TextBox x:Name="StorA" Background="LightGray" HorizontalAlignment="Left" Height="32" FontSize="20" Margin="150,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Вычисление площади треугольника по формуле Герона" FontSize="22" VerticalAlignment="Top" Width="574" Height="39"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,54,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="32" Width="102"><Run Text="Катет"/><Run Text=" А"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="10,91,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="32" Width="102"><Run Text="Катет"/><Run Text=" B"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="10,128,0,0" TextWrapping="Wrap" Text="Сторона C" FontSize="20" VerticalAlignment="Top" Height="32" Width="102"/>
-        <TextBox x:Name="StorB" Background="LightGray" HorizontalAlignment="Left" Height="32" FontSize="20" Margin="117,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
-        <TextBox x:Name="StorC" Background="LightGray" HorizontalAlignment="Left" Height="32" FontSize="20" Margin="117,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,54,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="32" Width="72"><Run Text="Катет"/><Run Text=" А"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="73,91,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="32" Width="68"><Run Text="Катет"/><Run Text=" B"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="19,128,0,0" TextWrapping="Wrap" Text="Гипотенуза C" FontSize="20" VerticalAlignment="Top" Height="32" Width="122"/>
+        <TextBox x:Name="StorB" Background="LightGray" HorizontalAlignment="Left" Height="32" FontSize="20" Margin="150,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <TextBox x:Name="StorC" Background="LightGray" HorizontalAlignment="Left" Height="32" FontSize="20" Margin="150,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,178,0,0" TextWrapping="Wrap" Text="Полупериметр - p =" FontSize="20" VerticalAlignment="Top" Height="32" Width="186"/>
         <TextBlock x:Name="PolyP" Background="LightGray" HorizontalAlignment="Left" Margin="201,178,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="32" Width="199"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,233,0,0" TextWrapping="Wrap" Text="Площадь - S =" FontSize="20" VerticalAlignment="Top" Height="32" Width="135"/>
         <TextBlock x:Name="Plosh" Background="LightGray" HorizontalAlignment="Left" Margin="150,233,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="32" Width="199"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="321,63,0,0" Width="35"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="321,100,0,0" Width="35"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="321,137,0,0" Width="35"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="354,63,0,0" Width="35"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="354,100,0,0" Width="35"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="354,137,0,0" Width="35"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См" VerticalAlignment="Top" Margin="405,187,0,0" Width="35"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="См^2" VerticalAlignment="Top" Margin="354,242,0,0" Width="35"/>
         <Button Content="Выход" Background="LightBlue" HorizontalAlignment="Left" FontSize="20" Margin="509,54,0,0" VerticalAlignment="Top" Width="75" Height="32" Click="ClickExit"/>
         <Button Content="Вычислить" Background="LightBlue" HorizontalAlignment="Left" FontSize="20" Margin="449,178,0,0" VerticalAlignment="Top" Width="135" Height="32" Click="ClickS"/>
         <Button Content="Очистить" Background="LightBlue" HorizontalAlignment="Left" FontSize="20" Margin="449,215,0,0" VerticalAlignment="Top" Width="135" Height="32" Click="ClickClear"/>
-
-
     </Grid>
 </Window>
