@@ -30,9 +30,24 @@ namespace WpfAppVar1
             this.Close();
         }
 
+
         private void ClickS(object sender, RoutedEventArgs e)
         {
+            double A = Convert.ToDouble(StorA.Text);
+            double B = Convert.ToDouble(StorB.Text);
+            double C = Convert.ToDouble(StorC.Text);
+            PolyP.Text = ((A + B + C) / 2).ToString();
+            double P = Convert.ToDouble(PolyP.Text);
+            Plosh.Text = ((P - A)*(P - B)).ToString();
+        }
 
+        private void ClickClear(object sender, RoutedEventArgs e)
+        {
+            StorA.Clear();
+            StorB.Clear();
+            StorC.Clear();
+            PolyP.Text = null;
+            Plosh.Text = null;
         }
     }
 }
